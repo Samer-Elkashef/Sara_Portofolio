@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sara | UI/UX Designer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <a href="#" class="logo">Sara.</a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Sara</span></h1>
+                <h2>UI/UX Designer</h2>
+                <p>I create beautiful, functional, and user-centered digital experiences. With a passion for clean design and seamless interactions, I transform complex problems into intuitive solutions.</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-bg"></div>
+                <!-- Replace with your actual image path -->
+                <img src="S:\development\SARA project\imgs\sara.jpeg" alt="Sara - UI/UX Designer" class="profile-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate UI/UX designer with 5+ years of experience creating digital products that users love. My approach combines aesthetic sensibility with user research and data-driven decisions.</p>
+                    <p>I specialize in user interface design, user experience research, wireframing, prototyping, and front-end development. I believe that good design is not just about how it looks, but how it works.</p>
+                    <p>When I'm not designing, you can find me exploring new design trends, attending tech meetups, or enjoying a good cup of coffee while sketching new ideas.</p>
+                    
+                    <h3>Skills & Tools</h3>
+                    <div class="skills">
+                        <span class="skill">User Research</span>
+                        <span class="skill">Wireframing</span>
+                        <span class="skill">Prototyping</span>
+                        <span class="skill">UI Design</span>
+                        <span class="skill">UX Design</span>
+                        <span class="skill">Figma</span>
+                        <span class="skill">Adobe XD</span>
+                        <span class="skill">Sketch</span>
+                        <span class="skill">InVision</span>
+                        <span class="skill">HTML/CSS</span>
+                        <span class="skill">User Testing</span>
+                    </div>
+                </div>
+                <div class="about-img">
+                    <!-- Replace with your actual image path -->
+                    <img src="S:\development\SARA project\imgs\samer and sara.jpeg" alt="Sara working">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>My Portfolio</h2>
+            <p>Here are some of my recent projects that showcase my design process and problem-solving skills.</p>
+            
+            <div class="portfolio-filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">UI Design</button>
+                <button class="filter-btn">UX Research</button>
+                <button class="filter-btn">Mobile Apps</button>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1558655146-9f40138edfeb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=764&q=80" alt="Project 1" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>E-commerce Mobile App</h3>
+                        <p>UI/UX design for a fashion retail mobile application with intuitive navigation and seamless checkout process.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=715&q=80" alt="Project 2" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Financial Dashboard</h3>
+                        <p>Data visualization dashboard for financial analytics with clean interface and interactive charts.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80" alt="Project 3" class="portfolio-img">
+                    <div class="portfolio-info">
+                        <h3>Healthcare Platform</h3>
+                        <p>User-centered design for a telehealth platform focusing on accessibility and ease of use.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <p>Have a project in mind or want to discuss potential collaboration? I'd love to hear from you!</p>
+            
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>Sara.</h3>
+                    <p>UI/UX Designer creating meaningful digital experiences</p>
+                </div>
+                
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2023 Sara. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+        
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.querySelector('.nav-links').classList.remove('active');
+            });
+        });
+        
+        // Portfolio filtering (basic implementation)
+        document.querySelectorAll('.filter-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.filter-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                
+                // Add active class to clicked button
+                this.classList.add('active');
+                
+                // In a real implementation, you would filter the portfolio items here
+            });
+        });
+        
+        // Simple form submission
+        document.querySelector('.contact-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Thank you for your message! I will get back to you soon.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>
