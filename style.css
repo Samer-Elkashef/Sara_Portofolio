@@ -416,6 +416,13 @@
             .about-img {
                 order: -1;
             }
+            
+              .hero-image{
+                margin-top: 60px;
+              }
+
+
+            
         }
         
         @media (max-width: 768px) {
